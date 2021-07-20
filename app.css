@@ -181,6 +181,97 @@ h1 {
     font-size:13px;
 }
 
+@media (min-width:500px) and (max-width: 660px){
+    .image_name_container {
+        width: 30%;
+    }
+}
+
+@media (min-width:661px) and (max-width: 800px){
+    .image_name_container {
+        width: 20%;
+    }
+}
+
+@media (min-width:801px) and (max-width: 999px){
+    .image_name_container {
+        width: 18%;
+    }
+}
+    
+@media (min-width: 1000px) and (max-width:1200px) {
+    
+        body{
+            display:flex; 
+            flex-direction: column;
+        }
+    
+        .image_name_container {
+            width:60%;  
+        }
+    
+        #one {
+            width:30%;  
+        }
+    
+        #four {
+            width:30%;  
+        }
+
+        #five {
+            width:20%;
+        }
+    
+        body{
+            display:flex; 
+            flex-direction: column;
+        }
+    
+        .main_container {
+            height:100vh;
+            max-width: 100vw;
+            display: grid; 
+            grid-template-columns: repeat(3, 250px); 
+            grid-template-rows: repeat(3, 300px); 
+            padding: 2rem 2rem 2rem 2rem;
+            grid-gap: 30px 30px;
+            align-content:center;
+            justify-content: center;
+        }
+    
+        .first_container{
+            margin: 0; 
+            grid-column: span 2; 
+            grid-row: 1/2;
+    
+        }
+    
+        .second_container{
+            margin: 0; 
+            grid-column: 3/4; 
+            grid-row: 1/2;
+           
+        }
+    
+        .third_container{
+            margin: 0; 
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    
+        .fourth_container{
+            margin: 0; 
+            grid-column: 2/4; 
+            grid-row: 2/3;
+        }
+    
+        .fifth_container{ 
+            margin: 0; 
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+    }
+
 @media (min-width:1200px) {
     
     body{
@@ -255,43 +346,11 @@ h1 {
    
 }
 
-/* @media (min-width:1000px) {
-    
-    body{
-        display:flex; 
-        flex-direction: column;
-    }
 
-    .image_name_container {
-        width:15%;  
-    }
-    
-    .main_container{
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
 
-    #three {
-        width:20%;
-    }
-}
 
-@media (min-width:500px) {
-    .image_name_container {
-        width:30%;  
-    }
-}
 
-@media (min-width:620px) {
-    .image_name_container {
-        width:25%;  
-    }
 
-@media (min-width:700px) {
-    .image_name_container {
-        width:20%;  
-    }
-} */
 
 
 
