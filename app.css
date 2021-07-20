@@ -252,6 +252,12 @@ h1 {
 }
 
 @media (min-width:1000px) {
+    
+    body{
+        display:flex; 
+        flex-direction: column;
+    }
+
     .image_name_container {
         width:15%;  
     }
