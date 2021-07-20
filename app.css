@@ -181,12 +181,12 @@ h1 {
     font-size:13px;
 }
 
-@media (min-width:500px) {
+@media (min-width:1200px) {
  
 
     .main_container {
         height:100vh;
-        width: 100vw;
+        max-width: 1440px;
         display: grid; 
         grid-template-columns: repeat(3, 250px) 260px; 
         grid-template-rows: 300px 280px; 
@@ -251,6 +251,20 @@ h1 {
    
 }
 
+@media (min-width:1000px) {
+    .image_name_container {
+        width:15%;  
+    }
+    
+    .main_container{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    #three {
+        width:20%;
+    }
+}
 
 
 
